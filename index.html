@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="message-box">
+        <div class="icon"></div>
+        <h2>Ask Me a Question</h2>
+        <input class="box" type="text" id="questionInput" placeholder="Type something...">
+        <div class="buttons">
+            <button onclick="acceptQuestion()">Accept</button>
+            <button onclick="declineQuestion()">Decline</button>
+        </div>
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
